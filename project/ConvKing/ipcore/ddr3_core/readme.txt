@@ -1,0 +1,42 @@
+--/example_design                              //设计实例包含的文件
+  -- /bench                                    //_top_tb.v和ddr仿真模型
+     -- ddr_test_top_tb.v                      //HMIC IP Example Design顶层仿真文件，为HMIC IP Example Design顶层文件提供时钟驱动和配置
+     -- /mem                                   //ddr仿真模型
+        -- 2048Mb_mobile_ddr_parameters.vh     //lpddr仿真模型的配置文件
+        -- ddr2.v                              //ddr2仿真模型
+        -- ddr2_parameters.vh                  //ddr2仿真模型的配置文件
+        -- ddr3.v                              //ddr3仿真模型
+        -- ddr3_parameters.vh                  //ddr3仿真模型的配置文件
+        -- mobile_ddr.v                        //lpddr仿真模型
+  -- /rtl                                      //设计实例包含的RTL文件，HMIC IP以外的代码文件
+     -- ipsl_hmic_h_top_test.v                 //HMIC IP Example Design顶层文件，包含HMIC IP和其他外围模块
+     -- prbs31_128bit.v                        //prbs模块，用于产生随机序列
+     -- test_main_ctrl.v                       //AXI主控制模块，用于产生随机读写指令
+     -- test_rd_ctrl_64bit.v                   //AXI 64bit接口的读控制模块，控制读指令和检验读数据
+     -- test_rd_ctrl_128bit.v                  //AXI 128bit接口的读控制模块，控制读指令和检验读数据  
+     -- test_wr_ctrl_64bit.v                   //AXI 64bit接口的写控制模块，控制写指令和产生写数据
+     -- test_wr_ctrl_128bit.v                  //AXI 128bit接口的写控制模块，控制写指令和产生写数据
+--/pnr                                         //HMIC IP Example Design的综合布局布线工程
+  -- /ctrl_phy_22                              //Logos 22的Example Design工程
+     -- ddr_256_left.fdc                       //Logos 22 BG256使用左边HMIC时的PDS约束文件
+     -- ddr_256_right.fdc                      //Logos 22 BG256使用右边HMIC时的PDS约束文件
+     -- ddr_324_left.fdc                       //Logos 22 BG324使用左边HMIC时的PDS约束文件
+     -- ddr_324_right.fdc                      //Logos 22 BG324使用右边HMIC时的PDS约束文件
+     -- prj_name.pds                           //HMIC IP Example Design PDS工程文件
+     -- ip_filelist.f                          //HMIC IP的filelist
+     -- prj_filelist.f                         //HMIC IP Example Design的filelist
+--/rtl                                         //HMIC IP包含的设计代码
+  -- /pll                                      //PLL模块的代码
+     -- pll_50_400_v1_1.v                      //HMIC IP包含的PLL模块
+  -- ipsl_hmic_h_ddrc_apb_reset_v1_1.v         //APB初始化DDRC
+  -- ipsl_hmic_h_ddrc_reset_ctrl_v1_1.v        //DDRC复位控制逻辑
+  -- ipsl_hmic_h_ddrphy_dll_update_ctrl_v1_1.v //DLL的update控制逻辑
+  -- ipsl_hmic_h_ddrphy_reset_ctrl_v1_1.v      //DDRPHY的复位控制逻辑
+  -- ipsl_hmic_h_ddrphy_training_ctrl_v1_1.v   //DDRPHY的training控制逻辑
+  -- ipsl_hmic_h_ddrphy_update_ctrl_v1_1.v     //DDRPHY的update控制逻辑
+  -- ipsl_hmic_h_ddrc_top_v1_1.v               //DDRC的top层
+  -- ipsl_hmic_h_phy_top_v1_1.v                //DDRPHY的top层
+  -- ipsl_hmic_h_phy_io_v1_1.v                 //DDRPHY的IO层
+--/sim                                         //simulation目录
+  -- ctrl_phy_sim.tcl                          //用于仿真运行的.tcl文件
+  -- sim_file_list.f                           //用于仿真的filelist

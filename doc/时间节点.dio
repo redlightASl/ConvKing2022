@@ -1,0 +1,120 @@
+<mxfile host="65bd71144e">
+    <diagram id="-NVDOyjpbDmzepJvEqZZ" name="第 1 页">
+        <mxGraphModel dx="825" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="32" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="170" width="690" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=none;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];fontColor=#000000;startSize=23;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="210" width="680" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Peripheral&#10;Module" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" parent="10" vertex="1">
+                    <mxGeometry x="10" y="33" width="120" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="2-layer &#10;FullConnection NN&#10;for MNIST" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" parent="10" vertex="1">
+                    <mxGeometry x="118" y="33" width="162" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="CNN operator&#10;Construction" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" parent="10" vertex="1">
+                    <mxGeometry x="268" y="33" width="152" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Initial&#10;Version" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#f8cecc;strokeColor=#b85450;shadow=1;" parent="10" vertex="1">
+                    <mxGeometry x="408" y="33" width="102" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Testbench&#10;Optimization" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#e1d5e7;strokeColor=#9673a6;shadow=1;" parent="10" vertex="1">
+                    <mxGeometry x="498" y="33" width="172" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="3.12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="300" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="3.25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="300" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="4.15" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="300" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="5.10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="300" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="5.30" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1000" y="300" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Peripheral" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="330" width="110" height="180" as="geometry">
+                        <mxRectangle x="380" y="330" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="UART" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="33">
+                    <mxGeometry y="30" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Button FSM" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="33">
+                    <mxGeometry y="60" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="DVP Controller" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="33">
+                    <mxGeometry y="90" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="HDMI" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="33">
+                    <mxGeometry y="120" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="DDR Controller" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="33">
+                    <mxGeometry y="150" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="MNIST" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="330" width="132" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Multiplying-Adder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="39">
+                    <mxGeometry y="30" width="132" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="FullConnection Layer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="39">
+                    <mxGeometry y="60" width="132" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="ReLU Layer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="39">
+                    <mxGeometry y="90" width="132" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Conv Layer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="39">
+                    <mxGeometry y="120" width="132" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="MaxPool Layer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="39">
+                    <mxGeometry y="150" width="132" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="BN Layer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="39">
+                    <mxGeometry y="180" width="132" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Run Algorithm on PC platform" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#d5e8d4;strokeColor=#82b366;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="180" width="230" height="57" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="YOLO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="330" width="120" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="UpSampling" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="48">
+                    <mxGeometry y="30" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="CSP Component" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="48">
+                    <mxGeometry y="60" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Fruit Dataset" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="48">
+                    <mxGeometry y="90" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Optimization" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="790" y="330" width="250" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Picture Buffer Optimization" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="57">
+                    <mxGeometry y="30" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Weight Loading Optimization " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="57">
+                    <mxGeometry y="60" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="Pipe-line Optimization" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="57">
+                    <mxGeometry y="90" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Timing Optimization" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="57">
+                    <mxGeometry y="120" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Implement Detection System on FPGA" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="180" width="330" height="57" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

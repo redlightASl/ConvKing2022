@@ -1,0 +1,16 @@
+../../example_design/rtl/prbs31_128bit.v
+../../example_design/rtl/test_main_ctrl.v
+../../rtl/pll/pll_50_400_v1_1.v
+../../rtl/ipsl_hmic_h_ddrc_apb_reset_v1_1.v
+../../rtl/ipsl_hmic_h_ddrc_reset_ctrl_v1_1.v
+../../rtl/ipsl_hmic_h_ddrphy_dll_update_ctrl_v1_1.v
+../../rtl/ipsl_hmic_h_ddrphy_reset_ctrl_v1_1.v
+../../rtl/ipsl_hmic_h_ddrphy_training_ctrl_v1_1.v
+../../rtl/ipsl_hmic_h_ddrphy_update_ctrl_v1_1.v
+../../rtl/ipsl_hmic_h_ddrc_top_v1_1.v
+../../rtl/ipsl_hmic_h_phy_top_v1_1.v
+../../rtl/ipsl_hmic_h_phy_io_v1_1.v
+../../ddr3_core.v
+../../example_design/rtl/test_rd_ctrl_64bit.v
+../../example_design/rtl/test_wr_ctrl_64bit.v
+../../example_design/rtl/ipsl_hmic_h_top_test.v

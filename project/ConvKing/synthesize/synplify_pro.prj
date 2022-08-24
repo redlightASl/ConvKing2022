@@ -1,0 +1,109 @@
+#project files
+add_file -verilog  "F:/pds_project/ConvKing/source/top.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Bridge/axi/aq_axi_master.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Camera/cmos_8_16bit.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Camera/cmos_write_req_gen.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Camera/frame_fifo_read.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Camera/frame_fifo_write.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Camera/frame_read_write.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Camera/lut_ov5640_rgb565_1024_768.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_config.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_bit_ctrl.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_byte_ctrl.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_defines.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_top.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Uart/uart_rx.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Uart/uart_top.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Uart/uart_tx.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/mult_add.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/dvi_encoder.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/encode.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/serdes_4b_10to1.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Peripheral/Hdmi/color_bar.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Peripheral/Hdmi/video_define.v"
+add_file -verilog  "F:/pds_project/ConvKing/source/Peripheral/Hdmi/video_timing_data.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_training_ctrl_v1_1.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/mult_add_gen/mult_add_gen.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_dll_update_ctrl_v1_1.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_fifo_v1_5_afifo_16i_64o_512.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_fifo_v1_5_afifo_64i_16o_128.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_reset_ctrl_v1_1.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_reset_ctrl_v1_1.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/afifo_64i_16o_128.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/afifo_16i_64o_512.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/pll/pll_50_400_v1_1.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/video_pll/video_pll.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_update_ctrl_v1_1.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_fifo_ctrl_v1_3.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_apb_reset_v1_1.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_phy_top_v1_1.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_top_v1_1.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/ddr3_core/ddr3_core.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/mult_add_gen/rtl/ipml_multadd_v1_1_mult_add_gen.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_sdpram_v1_5_afifo_16i_64o_512.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_sdpram_v1_5_afifo_64i_16o_128.v"
+add_file -verilog  "F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_phy_io_v1_1.v"
+add_file -constraint "F:/pds_project/ConvKing/ConvKing.fdc"
+
+#implementation: "synplify_impl"
+impl -add "F:/pds_project/ConvKing/synthesize/synplify_impl" -type fpga
+
+#device options
+set_option -technology Logos
+set_option -part PGL22G
+set_option -speed_grade -6
+set_option -package MBG324
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module top
+
+set_option -fanout_limit 10000
+set_option -disable_io_insertion 0
+set_option -update_models_cp 0
+set_option -enable_prepacking 1
+set_option -rw_check_on_ram 0
+set_option -run_prop_extract 1
+set_option -resolve_multiple_driver 0
+
+set_option -symbolic_fsm_compiler 1
+set_option -syn_encoding default
+set_option -resource_sharing 1
+set_option -pipe 1
+set_option -retiming 0
+set_option -distributed_compile 0
+
+set_option -frequency auto
+set_option -auto_constrain_io 0
+
+set_option -num_critical_paths 3
+
+set_option -vlog_std v2001
+set_option -compiler_compatible 0
+set_option -dup 0
+set_option -multi_file_compilation_unit 1
+set_option -beta_vfeatures 0
+set_option -synthesis_onoff_pragma 0
+set_option -vhdl2008 0
+set_option -supporttypedflt 0
+set_option -beta_vhfeatures 0
+set_option -default_enum_encoding default
+set_option -looplimit 2000
+set_option -project_relative_includes 1
+set_option -include_path {F:/pds_project/ConvKing}
+set_option -fix_gated_and_generated_clocks 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+# NFilter
+set_option -no_sequential_opt 0
+
+set_option -write_verilog 1
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file synplify.vm
+
+#set log file
+project -log_file synplify.log

@@ -1,0 +1,73 @@
+##### Written on 2022/05/30 10:14:58 ###############################
+
+
+##### DESIGN INFO ##################################################
+
+Top Module:
+	top
+
+Constraint File(s):
+	F:/pds_project/ConvKing/ConvKing.fdc
+	
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 9 critical warning(s), 2 warning(s), out of 679 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+
+
+
+Constraints with issues:
+********************************************
+
+
+
+define_attribue {cmos_db[0]} {PAP_IO_LOC} {E18}
+	C: ConstraintEditor-2002: [F:/pds_project/ConvKing/ConvKing.fdc(line number: 183)] | Port cmos_db[0] has been placed at location E18, whose type is share pin.
+
+define_attribue {cmos_db[1]} {PAP_IO_LOC} {D18}
+	C: ConstraintEditor-2002: [F:/pds_project/ConvKing/ConvKing.fdc(line number: 190)] | Port cmos_db[1] has been placed at location D18, whose type is share pin.
+
+define_attribue {cmos_db[2]} {PAP_IO_LOC} {F14}
+	C: ConstraintEditor-2002: [F:/pds_project/ConvKing/ConvKing.fdc(line number: 197)] | Port cmos_db[2] has been placed at location F14, whose type is share pin.
+
+define_attribue {cmos_db[4]} {PAP_IO_LOC} {E17}
+	C: ConstraintEditor-2002: [F:/pds_project/ConvKing/ConvKing.fdc(line number: 211)] | Port cmos_db[4] has been placed at location E17, whose type is share pin.
+
+define_attribue {cmos_db[5]} {PAP_IO_LOC} {D17}
+	C: ConstraintEditor-2002: [F:/pds_project/ConvKing/ConvKing.fdc(line number: 218)] | Port cmos_db[5] has been placed at location D17, whose type is share pin.
+
+define_attribue {cmos_db[6]} {PAP_IO_LOC} {G14}
+	C: ConstraintEditor-2002: [F:/pds_project/ConvKing/ConvKing.fdc(line number: 225)] | Port cmos_db[6] has been placed at location G14, whose type is share pin.
+
+define_attribue {cmos_db[7]} {PAP_IO_LOC} {G13}
+	C: ConstraintEditor-2002: [F:/pds_project/ConvKing/ConvKing.fdc(line number: 232)] | Port cmos_db[7] has been placed at location G13, whose type is share pin.
+
+define_attribue {cmos_href} {PAP_IO_LOC} {H14}
+	C: ConstraintEditor-2002: [F:/pds_project/ConvKing/ConvKing.fdc(line number: 240)] | Port cmos_href has been placed at location H14, whose type is share pin.
+
+define_attribue {uart_rx} {PAP_IO_LOC} {A12}
+	C: ConstraintEditor-2002: [F:/pds_project/ConvKing/ConvKing.fdc(line number: 71)] | Port uart_rx has been placed at location A12, whose type is share pin.
+
+
+
+
+
+W: ConstraintEditor-4019: Port 'pad_loop_in' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'pad_loop_in_h' unspecified I/O constraint.
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

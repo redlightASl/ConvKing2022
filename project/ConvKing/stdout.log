@@ -1,0 +1,23 @@
+
+Starting:    D:\pango\PDS_2020.3\syn\bin64\mbin\synplify.exe
+Install:     D:\pango\PDS_2020.3\syn
+Hostname:    DESKTOP-FPVEJ74
+Date:        Wed Apr 20 12:58:06 2022
+Version:     Q-2020.03P
+
+Arguments:   -product synplify_pro -licensetype synplifypro_pango
+ProductType: synplify_pro
+
+No such feature exists.
+Feature:       synplifypro_pango
+License path:  27020@45.33.107.56;
+FlexNet Licensing error:-5,21
+
+License for feature synplifypro_pango is not available.
+
+Host ID:  "80fa5b801510 0a002700007f aecf8c0102a1 9cfce886e1bb 9efce886e1ba 005056c00001 005056c00008 00e04cbd1d05 9cfce886e1be aaaaaa2c5600 000000000000"
+Please contact support at https://solvnetplus.synopsys.com/ManageCase?ccf=1
+
+
+
+

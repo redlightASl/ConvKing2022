@@ -1,0 +1,789 @@
+# Reading C:/modeltech64_10.4/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do {run_behav_compile.tcl}
+# ** Error: (vlib-35) Failed to create directory "work".
+# 
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet work ./work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:08 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/top.v -work work 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:12:08 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:08 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Bridge/axi/aq_axi_master.v -work work 
+# -- Compiling module aq_axi_master
+# ** Warning: F:/pds_project/ConvKing/source/Bridge/axi/aq_axi_master.v(266): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	aq_axi_master
+# End time: 00:12:08 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:08 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Camera/cmos_8_16bit.v -work work 
+# -- Compiling module cmos_8_16bit
+# 
+# Top level modules:
+# 	cmos_8_16bit
+# End time: 00:12:08 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:08 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Camera/cmos_write_req_gen.v -work work 
+# -- Compiling module cmos_write_req_gen
+# 
+# Top level modules:
+# 	cmos_write_req_gen
+# End time: 00:12:08 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:08 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Camera/frame_fifo_read.v -work work 
+# -- Compiling module frame_fifo_read
+# 
+# Top level modules:
+# 	frame_fifo_read
+# End time: 00:12:09 on May 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:09 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Camera/frame_fifo_write.v -work work 
+# -- Compiling module frame_fifo_write
+# 
+# Top level modules:
+# 	frame_fifo_write
+# End time: 00:12:09 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:09 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Camera/frame_read_write.v -work work 
+# -- Compiling module frame_read_write
+# 
+# Top level modules:
+# 	frame_read_write
+# End time: 00:12:09 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:09 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Camera/lut_ov5640_rgb565_1024_768.v -work work 
+# -- Compiling module lut_ov5640_rgb565_1024_768
+# 
+# Top level modules:
+# 	lut_ov5640_rgb565_1024_768
+# End time: 00:12:09 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:09 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_config.v -work work 
+# -- Compiling module i2c_config
+# 
+# Top level modules:
+# 	i2c_config
+# End time: 00:12:09 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:09 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_bit_ctrl.v -work work 
+# -- Compiling module i2c_master_bit_ctrl
+# 
+# Top level modules:
+# 	i2c_master_bit_ctrl
+# End time: 00:12:09 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:09 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_byte_ctrl.v -work work 
+# -- Compiling module i2c_master_byte_ctrl
+# 
+# Top level modules:
+# 	i2c_master_byte_ctrl
+# End time: 00:12:09 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:09 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_defines.v -work work 
+# End time: 00:12:09 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:09 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_top.v -work work 
+# -- Compiling module i2c_master_top
+# 
+# Top level modules:
+# 	i2c_master_top
+# End time: 00:12:09 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:09 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Uart/uart_rx.v -work work 
+# -- Compiling module uart_rx
+# 
+# Top level modules:
+# 	uart_rx
+# End time: 00:12:09 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:09 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Uart/uart_top.v -work work 
+# -- Compiling module uart_top
+# 
+# Top level modules:
+# 	uart_top
+# End time: 00:12:10 on May 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:10 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Uart/uart_tx.v -work work 
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	uart_tx
+# End time: 00:12:10 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:10 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/mult_add.v -work work 
+# -- Compiling module mult_add
+# 
+# Top level modules:
+# 	mult_add
+# End time: 00:12:10 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:10 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/dvi_encoder.v -work work 
+# -- Compiling module dvi_encoder
+# 
+# Top level modules:
+# 	dvi_encoder
+# End time: 00:12:10 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:10 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/encode.v -work work 
+# -- Compiling module encode
+# 
+# Top level modules:
+# 	encode
+# End time: 00:12:10 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:10 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/serdes_4b_10to1.v -work work 
+# -- Compiling module serdes_4b_10to1
+# 
+# Top level modules:
+# 	serdes_4b_10to1
+# End time: 00:12:10 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:10 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/Hdmi/color_bar.v -work work 
+# -- Compiling module color_bar
+# 
+# Top level modules:
+# 	color_bar
+# End time: 00:12:10 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:10 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/Hdmi/video_define.v -work work 
+# End time: 00:12:10 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:10 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/Hdmi/video_timing_data.v -work work 
+# -- Compiling module video_timing_data
+# 
+# Top level modules:
+# 	video_timing_data
+# End time: 00:12:10 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:10 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/key.v -work work 
+# -- Compiling module key
+# 
+# Top level modules:
+# 	key
+# End time: 00:12:10 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:10 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/key_top.v -work work 
+# -- Compiling module key_top
+# 
+# Top level modules:
+# 	key_top
+# End time: 00:12:10 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:11 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/ReLU/relu.v -work work 
+# -- Compiling module relu
+# 
+# Top level modules:
+# 	relu
+# End time: 00:12:11 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:11 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/ReLU/relu_top.v -work work 
+# -- Compiling module relu_top
+# 
+# Top level modules:
+# 	relu_top
+# End time: 00:12:11 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:11 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/Linear/linear.v -work work 
+# End time: 00:12:11 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:11 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/Linear/linear_top.v -work work 
+# -- Compiling module linear_top
+# 
+# Top level modules:
+# 	linear_top
+# End time: 00:12:11 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:11 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/mobilenet_invres.v -work work 
+# -- Compiling module mobilenet_invers
+# 
+# Top level modules:
+# 	mobilenet_invers
+# End time: 00:12:11 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:11 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/mobilenet_top.v -work work 
+# -- Compiling module mobilenet_top
+# 
+# Top level modules:
+# 	mobilenet_top
+# End time: 00:12:11 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:11 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/yolo_aft.v -work work 
+# -- Compiling module yolo_aft
+# 
+# Top level modules:
+# 	yolo_aft
+# End time: 00:12:11 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:11 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/yolo_CBL.v -work work 
+# -- Compiling module yolo_cbl
+# 
+# Top level modules:
+# 	yolo_cbl
+# End time: 00:12:11 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:11 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/yolo_mobilenet.v -work work 
+# -- Compiling module yolo_mobilenet
+# 
+# Top level modules:
+# 	yolo_mobilenet
+# End time: 00:12:11 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:11 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/yolo_pre.v -work work 
+# -- Compiling module yolo_pre
+# 
+# Top level modules:
+# 	yolo_pre
+# End time: 00:12:11 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:12 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/yolo_top.v -work work 
+# -- Compiling module yolo_top
+# 
+# Top level modules:
+# 	yolo_top
+# End time: 00:12:12 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:12 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_cmd.v -work work 
+# -- Compiling module sd_card_cmd
+# 
+# Top level modules:
+# 	sd_card_cmd
+# End time: 00:12:12 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:12 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_sec_read_write.v -work work 
+# -- Compiling module sd_card_sec_read_write
+# 
+# Top level modules:
+# 	sd_card_sec_read_write
+# End time: 00:12:12 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:12 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_top.v -work work 
+# -- Compiling module sd_card_top
+# 
+# Top level modules:
+# 	sd_card_top
+# End time: 00:12:12 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:12 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/Sdcard/spi_master.v -work work 
+# -- Compiling module spi_master
+# 
+# Top level modules:
+# 	spi_master
+# End time: 00:12:12 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:12 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/ax_debounce.v -work work 
+# -- Compiling module ax_debounce
+# 
+# Top level modules:
+# 	ax_debounce
+# End time: 00:12:12 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:12 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/pt_read.v -work work 
+# -- Compiling module pt_read
+# 
+# Top level modules:
+# 	pt_read
+# End time: 00:12:12 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:12 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Peripheral/sd_card_weight.v -work work 
+# -- Compiling module sd_card_weight
+# 
+# Top level modules:
+# 	sd_card_weight
+# End time: 00:12:12 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:12 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Uart/uart_decode.v -work work 
+# -- Compiling module uart_decode
+# 
+# Top level modules:
+# 	uart_decode
+# End time: 00:12:12 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:12 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/KNN/color_det_top.v -work work 
+# -- Compiling module color_det_top
+# 
+# Top level modules:
+# 	color_det_top
+# End time: 00:12:12 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:12 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/KNN/rgb2hsv.v -work work 
+# -- Compiling module rgb2hsv
+# 
+# Top level modules:
+# 	rgb2hsv
+# End time: 00:12:13 on May 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:13 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/KNN/hsv2rgb.v -work work 
+# -- Compiling module hsv2rgb
+# 
+# Top level modules:
+# 	hsv2rgb
+# End time: 00:12:13 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:13 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/KNN/histogram.v -work work 
+# -- Compiling module histogram
+# 
+# Top level modules:
+# 	histogram
+# End time: 00:12:13 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:13 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/video_pll/video_pll.v -work work 
+# -- Compiling module video_pll
+# 
+# Top level modules:
+# 	video_pll
+# End time: 00:12:13 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:13 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_fifo_ctrl_v1_3.v -work work 
+# -- Compiling module ipml_fifo_ctrl_v1_3
+# 
+# Top level modules:
+# 	ipml_fifo_ctrl_v1_3
+# End time: 00:12:13 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:13 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_sdpram_v1_5_afifo_16i_64o_512.v -work work 
+# -- Compiling module ipml_sdpram_v1_5_afifo_16i_64o_512
+# 
+# Top level modules:
+# 	ipml_sdpram_v1_5_afifo_16i_64o_512
+# End time: 00:12:13 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:13 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_fifo_v1_5_afifo_16i_64o_512.v -work work 
+# -- Compiling module ipml_fifo_v1_5_afifo_16i_64o_512
+# 
+# Top level modules:
+# 	ipml_fifo_v1_5_afifo_16i_64o_512
+# End time: 00:12:13 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:13 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/afifo_16i_64o_512.v -work work 
+# -- Compiling module afifo_16i_64o_512
+# 
+# Top level modules:
+# 	afifo_16i_64o_512
+# End time: 00:12:13 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:13 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_fifo_ctrl_v1_3.v -work work 
+# -- Compiling module ipml_fifo_ctrl_v1_3
+# 
+# Top level modules:
+# 	ipml_fifo_ctrl_v1_3
+# End time: 00:12:13 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:13 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_sdpram_v1_5_afifo_64i_16o_128.v -work work 
+# -- Compiling module ipml_sdpram_v1_5_afifo_64i_16o_128
+# 
+# Top level modules:
+# 	ipml_sdpram_v1_5_afifo_64i_16o_128
+# End time: 00:12:13 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:13 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_fifo_v1_5_afifo_64i_16o_128.v -work work 
+# -- Compiling module ipml_fifo_v1_5_afifo_64i_16o_128
+# 
+# Top level modules:
+# 	ipml_fifo_v1_5_afifo_64i_16o_128
+# End time: 00:12:14 on May 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:14 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/afifo_64i_16o_128.v -work work 
+# -- Compiling module afifo_64i_16o_128
+# 
+# Top level modules:
+# 	afifo_64i_16o_128
+# End time: 00:12:14 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:14 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/mult_add_gen/rtl/ipml_multadd_v1_1_mult_add_gen.v -work work 
+# -- Compiling module ipml_multadd_v1_1_mult_add_gen
+# 
+# Top level modules:
+# 	ipml_multadd_v1_1_mult_add_gen
+# End time: 00:12:14 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:14 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/mult_add_gen/mult_add_gen.v -work work 
+# -- Compiling module mult_add_gen
+# 
+# Top level modules:
+# 	mult_add_gen
+# End time: 00:12:14 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:14 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/pll/pll_50_400_v1_1.v -work work 
+# -- Compiling module pll_50_400_v1_1
+# 
+# Top level modules:
+# 	pll_50_400_v1_1
+# End time: 00:12:14 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:14 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_apb_reset_v1_1.v -work work 
+# -- Compiling module ipsl_hmic_h_ddrc_apb_reset_v1_1
+# 
+# Top level modules:
+# 	ipsl_hmic_h_ddrc_apb_reset_v1_1
+# End time: 00:12:14 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:14 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_reset_ctrl_v1_1.v -work work 
+# -- Compiling module ipsl_hmic_h_ddrc_reset_ctrl_v1_1
+# 
+# Top level modules:
+# 	ipsl_hmic_h_ddrc_reset_ctrl_v1_1
+# End time: 00:12:14 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:14 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_dll_update_ctrl_v1_1.v -work work 
+# -- Compiling module ipsl_hmic_h_ddrphy_dll_update_ctrl_v1_1
+# 
+# Top level modules:
+# 	ipsl_hmic_h_ddrphy_dll_update_ctrl_v1_1
+# End time: 00:12:14 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:14 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_reset_ctrl_v1_1.v -work work 
+# -- Compiling module ipsl_hmic_h_ddrphy_reset_ctrl_v1_1
+# 
+# Top level modules:
+# 	ipsl_hmic_h_ddrphy_reset_ctrl_v1_1
+# End time: 00:12:14 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:14 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_training_ctrl_v1_1.v -work work 
+# -- Compiling module ipsl_hmic_h_ddrphy_training_ctrl_v1_1
+# 
+# Top level modules:
+# 	ipsl_hmic_h_ddrphy_training_ctrl_v1_1
+# End time: 00:12:14 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:15 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_update_ctrl_v1_1.v -work work 
+# -- Compiling module ipsl_hmic_h_ddrphy_update_ctrl_v1_1
+# 
+# Top level modules:
+# 	ipsl_hmic_h_ddrphy_update_ctrl_v1_1
+# End time: 00:12:15 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:15 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_top_v1_1.v -work work 
+# -- Compiling module ipsl_hmic_h_ddrc_top_v1_1
+# 
+# Top level modules:
+# 	ipsl_hmic_h_ddrc_top_v1_1
+# End time: 00:12:15 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:15 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_phy_top_v1_1.v -work work 
+# -- Compiling module ipsl_hmic_h_phy_top_v1_1
+# 
+# Top level modules:
+# 	ipsl_hmic_h_phy_top_v1_1
+# End time: 00:12:15 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:15 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_phy_io_v1_1.v -work work 
+# -- Compiling module ipsl_hmic_h_phy_io_v1_1
+# 
+# Top level modules:
+# 	ipsl_hmic_h_phy_io_v1_1
+# End time: 00:12:15 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:15 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/ddr3_core/ddr3_core.v -work work 
+# -- Compiling module ddr3_core
+# 
+# Top level modules:
+# 	ddr3_core
+# End time: 00:12:15 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:15 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/rtl/ipml_fifo_ctrl_v1_3.v -work work 
+# -- Compiling module ipml_fifo_ctrl_v1_3
+# 
+# Top level modules:
+# 	ipml_fifo_ctrl_v1_3
+# End time: 00:12:15 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:15 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/rtl/ipml_sdpram_v1_5_afifo_32i_8o_64depth.v -work work 
+# -- Compiling module ipml_sdpram_v1_5_afifo_32i_8o_64depth
+# 
+# Top level modules:
+# 	ipml_sdpram_v1_5_afifo_32i_8o_64depth
+# End time: 00:12:15 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:15 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/rtl/ipml_fifo_v1_5_afifo_32i_8o_64depth.v -work work 
+# -- Compiling module ipml_fifo_v1_5_afifo_32i_8o_64depth
+# 
+# Top level modules:
+# 	ipml_fifo_v1_5_afifo_32i_8o_64depth
+# End time: 00:12:15 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:15 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/afifo_32i_8o_64depth.v -work work 
+# -- Compiling module afifo_32i_8o_64depth
+# 
+# Top level modules:
+# 	afifo_32i_8o_64depth
+# End time: 00:12:15 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:15 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_fifo_ctrl_v1_3.v -work work 
+# -- Compiling module ipml_fifo_ctrl_v1_3
+# 
+# Top level modules:
+# 	ipml_fifo_ctrl_v1_3
+# End time: 00:12:15 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:16 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_sdpram_v1_5_afifo_8i_32o_64depth.v -work work 
+# -- Compiling module ipml_sdpram_v1_5_afifo_8i_32o_64depth
+# 
+# Top level modules:
+# 	ipml_sdpram_v1_5_afifo_8i_32o_64depth
+# End time: 00:12:16 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:16 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_fifo_v1_5_afifo_8i_32o_64depth.v -work work 
+# -- Compiling module ipml_fifo_v1_5_afifo_8i_32o_64depth
+# 
+# Top level modules:
+# 	ipml_fifo_v1_5_afifo_8i_32o_64depth
+# End time: 00:12:16 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:16 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/afifo_8i_32o_64depth.v -work work 
+# -- Compiling module afifo_8i_32o_64depth
+# 
+# Top level modules:
+# 	afifo_8i_32o_64depth
+# End time: 00:12:16 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:16 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/histogram_ram_h/rtl/ipml_dpram_v1_5_histogram_ram_h.v -work work 
+# -- Compiling module ipml_dpram_v1_5_histogram_ram_h
+# 
+# Top level modules:
+# 	ipml_dpram_v1_5_histogram_ram_h
+# End time: 00:12:16 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:16 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/histogram_ram_h/histogram_ram_h.v -work work 
+# -- Compiling module histogram_ram_h
+# 
+# Top level modules:
+# 	histogram_ram_h
+# End time: 00:12:16 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:16 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/histogram_ram_s/rtl/ipml_dpram_v1_5_histogram_ram_s.v -work work 
+# -- Compiling module ipml_dpram_v1_5_histogram_ram_s
+# 
+# Top level modules:
+# 	ipml_dpram_v1_5_histogram_ram_s
+# End time: 00:12:16 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:16 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/histogram_ram_s/histogram_ram_s.v -work work 
+# -- Compiling module histogram_ram_s
+# 
+# Top level modules:
+# 	histogram_ram_s
+# End time: 00:12:16 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:16 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/histogram_ram_v/rtl/ipml_dpram_v1_5_histogram_ram_v.v -work work 
+# -- Compiling module ipml_dpram_v1_5_histogram_ram_v
+# 
+# Top level modules:
+# 	ipml_dpram_v1_5_histogram_ram_v
+# End time: 00:12:16 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:16 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/ipcore/histogram_ram_v/histogram_ram_v.v -work work 
+# -- Compiling module histogram_ram_v
+# 
+# Top level modules:
+# 	histogram_ram_v
+# End time: 00:12:16 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 00:12:16 on May 13,2022
+# vlog -reportprogress 300 F:/pds_project/ConvKing/source/Accelerator/KNN/tb/hist_top_tb.v -work work 
+# -- Compiling module hist_top_tb
+# 
+# Top level modules:
+# 	hist_top_tb
+# End time: 00:12:16 on May 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# do {run_behav_simulate.tcl}
+# vsim -gui -do "do {run_behav_compile.tcl};do {run_behav_simulate.tcl}" -l run_behav_simulate.log 
+# Start time: 00:12:17 on May 13,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.hist_top_tb(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Causality operation skipped due to absence of debug database file
+# End time: 00:13:20 on May 13,2022, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 1

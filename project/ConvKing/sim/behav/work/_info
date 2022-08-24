@@ -1,0 +1,1598 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/pds_project/ConvKing/sim/behav
+T_opt
+!s110 1652371937
+VLmEla`1zn^mX3V1mQTSKz1
+04 11 4 work hist_top_tb fast 0
+=1-80fa5b801510-627d31e1-127-41d0
+o-quiet -auto_acc_if_foreign -work work -L work +acc
+n@_opt
+OL;O;10.4;61
+vafifo_16i_64o_512
+Z1 !s110 1652371933
+!i10b 1
+!s100 O55Acmgik^`8I?RF1oNn81
+IOM=R1_^45l^R>]N?Q5=bi0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1652325922
+8F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/afifo_16i_64o_512.v
+FF:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/afifo_16i_64o_512.v
+Z4 L0 18
+Z5 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1652371933.702000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/afifo_16i_64o_512.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/afifo_16i_64o_512.v|-work|work|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vafifo_32i_8o_64depth
+Z7 !s110 1652371935
+!i10b 1
+!s100 c4I?;iX3[6@f[DGk41Rh:3
+IfXaiW:J@NP54E?4K@lHXK2
+R2
+R0
+Z8 w1652325891
+8F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/afifo_32i_8o_64depth.v
+FF:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/afifo_32i_8o_64depth.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1652371935.858000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/afifo_32i_8o_64depth.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/afifo_32i_8o_64depth.v|-work|work|
+!i113 0
+R6
+vafifo_64i_16o_128
+Z9 !s110 1652371934
+!i10b 1
+!s100 E;<@Vzk<<FBBnF@4JJ?=32
+IJ38nbQ2NihJhSnmQ9];MW0
+R2
+R0
+Z10 w1652325929
+8F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/afifo_64i_16o_128.v
+FF:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/afifo_64i_16o_128.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1652371934.111000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/afifo_64i_16o_128.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/afifo_64i_16o_128.v|-work|work|
+!i113 0
+R6
+vafifo_8i_32o_64depth
+Z11 !s110 1652371936
+!i10b 1
+!s100 WKTm27W>W7aMbY_o4`d6:3
+IOA9DBlf`8gb>4h;HZ;j?N3
+R2
+R0
+Z12 w1652325878
+8F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/afifo_8i_32o_64depth.v
+FF:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/afifo_8i_32o_64depth.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1652371936.268000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/afifo_8i_32o_64depth.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/afifo_8i_32o_64depth.v|-work|work|
+!i113 0
+R6
+vaq_axi_master
+Z13 !s110 1652371928
+!i10b 1
+!s100 M6mz?7WHEmcz9JGQ:Q^K11
+IVTJ[]U4GdQ<TGzPCg0go00
+R2
+R0
+w1650420229
+8F:/pds_project/ConvKing/source/Bridge/axi/aq_axi_master.v
+FF:/pds_project/ConvKing/source/Bridge/axi/aq_axi_master.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1652371928.715000
+!s107 F:/pds_project/ConvKing/source/Bridge/axi/aq_axi_master.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Bridge/axi/aq_axi_master.v|-work|work|
+!i113 0
+R6
+vax_debounce
+Z14 !s110 1652371932
+!i10b 1
+!s100 D:m`[[g8>ZGDU0<8>?5FX1
+ImUIV8B]UQmNNM_9d8lj6m3
+R2
+R0
+w1652179905
+8F:/pds_project/ConvKing/source/Peripheral/ax_debounce.v
+FF:/pds_project/ConvKing/source/Peripheral/ax_debounce.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371932.534000
+!s107 F:/pds_project/ConvKing/source/Peripheral/ax_debounce.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/ax_debounce.v|-work|work|
+!i113 0
+R6
+vcmos_8_16bit
+R13
+!i10b 1
+!s100 :<BZAHKBKM=bV[U[OEN]a3
+IOXc8]^<glOfBO4BLmWnl:2
+R2
+R0
+w1649830462
+8F:/pds_project/ConvKing/source/Camera/cmos_8_16bit.v
+FF:/pds_project/ConvKing/source/Camera/cmos_8_16bit.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371928.812000
+!s107 F:/pds_project/ConvKing/source/Camera/cmos_8_16bit.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Camera/cmos_8_16bit.v|-work|work|
+!i113 0
+R6
+vcmos_write_req_gen
+R13
+!i10b 1
+!s100 0PL7_LDmcC_oKj]OZG_kL3
+I3K5AYW<@3J=iSPU2>CM5d1
+R2
+R0
+w1649830466
+8F:/pds_project/ConvKing/source/Camera/cmos_write_req_gen.v
+FF:/pds_project/ConvKing/source/Camera/cmos_write_req_gen.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371928.906000
+!s107 F:/pds_project/ConvKing/source/Camera/cmos_write_req_gen.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Camera/cmos_write_req_gen.v|-work|work|
+!i113 0
+R6
+vcolor_bar
+Z15 !s110 1652371930
+!i10b 1
+!s100 _4J43EOJb`Q`8=;CEWhSM1
+I7HVoi[Eb4[[NMe7ESHSXg2
+R2
+R0
+w1649830485
+8F:/pds_project/ConvKing/source/Peripheral/Hdmi/color_bar.v
+FF:/pds_project/ConvKing/source/Peripheral/Hdmi/color_bar.v
+L0 4
+R5
+r1
+!s85 0
+31
+!s108 1652371930.590000
+!s107 F:\pds_project\ConvKing\source\Peripheral\Hdmi\video_define.v|F:/pds_project/ConvKing/source/Peripheral/Hdmi/color_bar.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/Hdmi/color_bar.v|-work|work|
+!i113 0
+R6
+vcolor_det_top
+R14
+!i10b 1
+!s100 >K`eboO?]S[e@4bag00ZW2
+If_;ojggY2HmhChdkZ40hK2
+R2
+R0
+w1652356653
+8F:/pds_project/ConvKing/source/Accelerator/KNN/color_det_top.v
+FF:/pds_project/ConvKing/source/Accelerator/KNN/color_det_top.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1652371932.923000
+!s107 F:/pds_project/ConvKing/source/Accelerator/KNN/color_det_top.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/KNN/color_det_top.v|-work|work|
+!i113 0
+R6
+vddr3_core
+R7
+!i10b 1
+!s100 l>WQ6=J0z4^gPYU9S?moD2
+IP6hJRIAgD[WQn<k:DzZc@0
+R2
+R0
+Z16 w1650438700
+8F:/pds_project/ConvKing/ipcore/ddr3_core/ddr3_core.v
+FF:/pds_project/ConvKing/ipcore/ddr3_core/ddr3_core.v
+Z17 L0 21
+R5
+r1
+!s85 0
+31
+!s108 1652371935.449000
+!s107 F:/pds_project/ConvKing/ipcore/ddr3_core/ddr3_core.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/ddr3_core/ddr3_core.v|-work|work|
+!i113 0
+R6
+vdvi_encoder
+R15
+!i10b 1
+!s100 jKP00lIB7>n:Z1h?]NkEV1
+IAkZL4kCgO]MY1_m0UIcYb2
+R2
+R0
+w1651422185
+8F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/dvi_encoder.v
+FF:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/dvi_encoder.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371930.291000
+!s107 F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/dvi_encoder.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/dvi_encoder.v|-work|work|
+!i113 0
+R6
+vencode
+R15
+!i10b 1
+!s100 j^I3X1MOnV]H;UDD?QNA=1
+IJ7O5KjO;5KAh:W;fO;LzC0
+R2
+R0
+w1649830432
+8F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/encode.v
+FF:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/encode.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371930.396000
+!s107 F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/encode.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/encode.v|-work|work|
+!i113 0
+R6
+vframe_fifo_read
+Z18 !s110 1652371929
+!i10b 1
+!s100 OGA`jW[WdiT>5mzCiooZ92
+I@:z^K_Q<C8Q[FXJnMgWhK1
+R2
+R0
+w1651484627
+8F:/pds_project/ConvKing/source/Camera/frame_fifo_read.v
+FF:/pds_project/ConvKing/source/Camera/frame_fifo_read.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371929.000000
+!s107 F:/pds_project/ConvKing/source/Camera/frame_fifo_read.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Camera/frame_fifo_read.v|-work|work|
+!i113 0
+R6
+vframe_fifo_write
+R18
+!i10b 1
+!s100 Gzk2MjbT35oNGO5]0;JI^3
+IQHNz2:khWkdo;7Tj_0a4L0
+R2
+R0
+w1651484607
+8F:/pds_project/ConvKing/source/Camera/frame_fifo_write.v
+FF:/pds_project/ConvKing/source/Camera/frame_fifo_write.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371929.093000
+!s107 F:/pds_project/ConvKing/source/Camera/frame_fifo_write.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Camera/frame_fifo_write.v|-work|work|
+!i113 0
+R6
+vframe_read_write
+R18
+!i10b 1
+!s100 QeaYTc7>8F?P5Xg;?PkGE2
+I<NZgz5gYZJ<E3VR<k6hAk3
+R2
+R0
+w1651711849
+8F:/pds_project/ConvKing/source/Camera/frame_read_write.v
+FF:/pds_project/ConvKing/source/Camera/frame_read_write.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371929.208000
+!s107 F:/pds_project/ConvKing/source/Camera/frame_read_write.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Camera/frame_read_write.v|-work|work|
+!i113 0
+R6
+vhist_top_tb
+R11
+!i10b 1
+!s100 04z_NF`j8aozoo7l@`1GJ3
+Io63Wz7bClmZBdWROk]4QR0
+R2
+R0
+w1652371914
+8F:/pds_project/ConvKing/source/Accelerator/KNN/tb/hist_top_tb.v
+FF:/pds_project/ConvKing/source/Accelerator/KNN/tb/hist_top_tb.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1652371936.983000
+!s107 F:/pds_project/ConvKing/source/Accelerator/KNN/tb/hist_top_tb.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/KNN/tb/hist_top_tb.v|-work|work|
+!i113 0
+R6
+vhistogram
+R1
+!i10b 1
+!s100 P`Sgko=aIW2TgWCMj2>mf1
+ITDL4OcN6QCd<NbW;HJT@I3
+R2
+R0
+w1652357019
+8F:/pds_project/ConvKing/source/Accelerator/KNN/histogram.v
+FF:/pds_project/ConvKing/source/Accelerator/KNN/histogram.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1652371933.208000
+!s107 F:/pds_project/ConvKing/source/Accelerator/KNN/histogram.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/KNN/histogram.v|-work|work|
+!i113 0
+R6
+vhistogram_ram_h
+R11
+!i10b 1
+!s100 6_1zSPJlDeL`8Z4]mjC<<1
+ILPl]4JenG<LcjTBKoo?lS2
+R2
+R0
+Z19 w1652355295
+8F:/pds_project/ConvKing/ipcore/histogram_ram_h/histogram_ram_h.v
+FF:/pds_project/ConvKing/ipcore/histogram_ram_h/histogram_ram_h.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1652371936.492000
+!s107 F:/pds_project/ConvKing/ipcore/histogram_ram_h/histogram_ram_h.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/histogram_ram_h/histogram_ram_h.v|-work|work|
+!i113 0
+R6
+vhistogram_ram_s
+R11
+!i10b 1
+!s100 oElUC8T?kZD_QI`>MiWnQ3
+IN>E[OUfk>4]g@f:3zIYML3
+R2
+R0
+Z20 w1652355319
+8F:/pds_project/ConvKing/ipcore/histogram_ram_s/histogram_ram_s.v
+FF:/pds_project/ConvKing/ipcore/histogram_ram_s/histogram_ram_s.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1652371936.687000
+!s107 F:/pds_project/ConvKing/ipcore/histogram_ram_s/histogram_ram_s.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/histogram_ram_s/histogram_ram_s.v|-work|work|
+!i113 0
+R6
+vhistogram_ram_v
+R11
+!i10b 1
+!s100 IHOg2mQW`oj9dA;4X_^ee0
+IRk383278l>Ef_lc3_<Uag1
+R2
+R0
+Z21 w1652355343
+8F:/pds_project/ConvKing/ipcore/histogram_ram_v/histogram_ram_v.v
+FF:/pds_project/ConvKing/ipcore/histogram_ram_v/histogram_ram_v.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1652371936.888000
+!s107 F:/pds_project/ConvKing/ipcore/histogram_ram_v/histogram_ram_v.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/histogram_ram_v/histogram_ram_v.v|-work|work|
+!i113 0
+R6
+vhsv2rgb
+R1
+!i10b 1
+!s100 UmoodR;ecO3gL]DfbTYcG2
+Ij:F]a@F186?IQJm=6lz]52
+R2
+R0
+w1652248656
+8F:/pds_project/ConvKing/source/Accelerator/KNN/hsv2rgb.v
+FF:/pds_project/ConvKing/source/Accelerator/KNN/hsv2rgb.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1652371933.113000
+!s107 F:/pds_project/ConvKing/source/Accelerator/KNN/hsv2rgb.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/KNN/hsv2rgb.v|-work|work|
+!i113 0
+R6
+vi2c_config
+R18
+!i10b 1
+!s100 =5Ub0P_Cn6@Oo^U]zBGkK2
+IK6o<hIOOgHRgY206nm=]j3
+R2
+R0
+w1649830450
+8F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_config.v
+FF:/pds_project/ConvKing/source/Camera/i2c_master/i2c_config.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371929.422000
+!s107 F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_config.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_config.v|-work|work|
+!i113 0
+R6
+vi2c_master_bit_ctrl
+R18
+!i10b 1
+!s100 z7MoZHX:VJA]dA8M9lo3A1
+IMj=]Tneb3Z_NYFd49oY[n0
+R2
+R0
+w1649830459
+8F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_bit_ctrl.v
+FF:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_bit_ctrl.v
+L0 143
+R5
+r1
+!s85 0
+31
+!s108 1652371929.517000
+!s107 F:\pds_project\ConvKing\source\Camera\i2c_master\i2c_master_defines.v|F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_bit_ctrl.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_bit_ctrl.v|-work|work|
+!i113 0
+R6
+vi2c_master_byte_ctrl
+R18
+!i10b 1
+!s100 3`CWzSRn8zk]0haF1COl61
+I]dJ6hAl406R[nhkH4:oMI3
+R2
+R0
+w1649830455
+8F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_byte_ctrl.v
+FF:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_byte_ctrl.v
+L0 4
+R5
+r1
+!s85 0
+31
+!s108 1652371929.625000
+!s107 F:\pds_project\ConvKing\source\Camera\i2c_master\i2c_master_defines.v|F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_byte_ctrl.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_byte_ctrl.v|-work|work|
+!i113 0
+R6
+vi2c_master_top
+R18
+!i10b 1
+!s100 aoNGCBNRg2kBk;J6E?]P@1
+I_7E1b^TKD49ajF<;c]dV@0
+R2
+R0
+w1649830452
+8F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_top.v
+FF:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_top.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371929.811000
+!s107 F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_top.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_top.v|-work|work|
+!i113 0
+R6
+vipml_dpram_v1_5_histogram_ram_h
+R11
+!i10b 1
+!s100 [ZMLYl_93Pf@m7BSk=bI[0
+IS<Q`GASLA9T1mBUd=Hd;d1
+R2
+R0
+R19
+8F:/pds_project/ConvKing/ipcore/histogram_ram_h/rtl/ipml_dpram_v1_5_histogram_ram_h.v
+FF:/pds_project/ConvKing/ipcore/histogram_ram_h/rtl/ipml_dpram_v1_5_histogram_ram_h.v
+Z22 L0 19
+R5
+r1
+!s85 0
+31
+!s108 1652371936.390000
+!s107 F:/pds_project/ConvKing/ipcore/histogram_ram_h/rtl/ipml_dpram_v1_5_histogram_ram_h.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/histogram_ram_h/rtl/ipml_dpram_v1_5_histogram_ram_h.v|-work|work|
+!i113 0
+R6
+vipml_dpram_v1_5_histogram_ram_s
+R11
+!i10b 1
+!s100 1@`]zPGlGd6m3H5bP@GEb2
+IoTVKzbX7f@>ADY@oOooh01
+R2
+R0
+R20
+8F:/pds_project/ConvKing/ipcore/histogram_ram_s/rtl/ipml_dpram_v1_5_histogram_ram_s.v
+FF:/pds_project/ConvKing/ipcore/histogram_ram_s/rtl/ipml_dpram_v1_5_histogram_ram_s.v
+R22
+R5
+r1
+!s85 0
+31
+!s108 1652371936.586000
+!s107 F:/pds_project/ConvKing/ipcore/histogram_ram_s/rtl/ipml_dpram_v1_5_histogram_ram_s.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/histogram_ram_s/rtl/ipml_dpram_v1_5_histogram_ram_s.v|-work|work|
+!i113 0
+R6
+vipml_dpram_v1_5_histogram_ram_v
+R11
+!i10b 1
+!s100 mQE<NCQTYQ4WUe5XGAGhc2
+IT]@nd3O_L37UT?;jSV0lO0
+R2
+R0
+R21
+8F:/pds_project/ConvKing/ipcore/histogram_ram_v/rtl/ipml_dpram_v1_5_histogram_ram_v.v
+FF:/pds_project/ConvKing/ipcore/histogram_ram_v/rtl/ipml_dpram_v1_5_histogram_ram_v.v
+R22
+R5
+r1
+!s85 0
+31
+!s108 1652371936.787000
+!s107 F:/pds_project/ConvKing/ipcore/histogram_ram_v/rtl/ipml_dpram_v1_5_histogram_ram_v.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/histogram_ram_v/rtl/ipml_dpram_v1_5_histogram_ram_v.v|-work|work|
+!i113 0
+R6
+vipml_fifo_ctrl_v1_3
+R7
+!i10b 1
+!s100 P3gXkkID5`N:B5iWMh33i2
+IoJ?J8OR:PWHcI@O`BgGES0
+R2
+R0
+w1601355514
+8F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_fifo_ctrl_v1_3.v
+FF:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_fifo_ctrl_v1_3.v
+R17
+R5
+r1
+!s85 0
+31
+!s108 1652371935.956000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_fifo_ctrl_v1_3.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_fifo_ctrl_v1_3.v|-work|work|
+!i113 0
+R6
+vipml_fifo_v1_5_afifo_16i_64o_512
+R1
+!i10b 1
+!s100 TH6@c7SVTV?>7Blk1J]NR3
+ID^_BDgb7f9XQnG[f>EC1<1
+R2
+R0
+R3
+8F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_fifo_v1_5_afifo_16i_64o_512.v
+FF:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_fifo_v1_5_afifo_16i_64o_512.v
+Z23 L0 25
+R5
+r1
+!s85 0
+31
+!s108 1652371933.606000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_fifo_v1_5_afifo_16i_64o_512.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_fifo_v1_5_afifo_16i_64o_512.v|-work|work|
+!i113 0
+R6
+vipml_fifo_v1_5_afifo_32i_8o_64depth
+R7
+!i10b 1
+!s100 K:DWD4KL6L>GIKPcK7PU=3
+Im84oe7=:jEn:iRbf@Q]me2
+R2
+R0
+R8
+8F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/rtl/ipml_fifo_v1_5_afifo_32i_8o_64depth.v
+FF:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/rtl/ipml_fifo_v1_5_afifo_32i_8o_64depth.v
+R23
+R5
+r1
+!s85 0
+31
+!s108 1652371935.759000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/rtl/ipml_fifo_v1_5_afifo_32i_8o_64depth.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/rtl/ipml_fifo_v1_5_afifo_32i_8o_64depth.v|-work|work|
+!i113 0
+R6
+vipml_fifo_v1_5_afifo_64i_16o_128
+R9
+!i10b 1
+!s100 lTTo_eB]Q<LI5=[ZoM^?`1
+I0D5f8f@>S<?N=zOnUzen41
+R2
+R0
+R10
+8F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_fifo_v1_5_afifo_64i_16o_128.v
+FF:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_fifo_v1_5_afifo_64i_16o_128.v
+R23
+R5
+r1
+!s85 0
+31
+!s108 1652371934.005000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_fifo_v1_5_afifo_64i_16o_128.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_fifo_v1_5_afifo_64i_16o_128.v|-work|work|
+!i113 0
+R6
+vipml_fifo_v1_5_afifo_8i_32o_64depth
+R11
+!i10b 1
+!s100 VR<;QV0nXPH_c`Ve_FC_Q3
+I<U2S[BPYTfQL8^<fMa]8k0
+R2
+R0
+R12
+8F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_fifo_v1_5_afifo_8i_32o_64depth.v
+FF:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_fifo_v1_5_afifo_8i_32o_64depth.v
+R23
+R5
+r1
+!s85 0
+31
+!s108 1652371936.164000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_fifo_v1_5_afifo_8i_32o_64depth.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_fifo_v1_5_afifo_8i_32o_64depth.v|-work|work|
+!i113 0
+R6
+vipml_multadd_v1_1_mult_add_gen
+R9
+!i10b 1
+!s100 L0HUbOn8Zd0b=a7LYJBXK1
+I=WWT;lZ]lI[;ZAmX@^ozO1
+R2
+R0
+Z24 w1650430616
+8F:/pds_project/ConvKing/ipcore/mult_add_gen/rtl/ipml_multadd_v1_1_mult_add_gen.v
+FF:/pds_project/ConvKing/ipcore/mult_add_gen/rtl/ipml_multadd_v1_1_mult_add_gen.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1652371934.207000
+!s107 F:/pds_project/ConvKing/ipcore/mult_add_gen/rtl/ipml_multadd_v1_1_mult_add_gen.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/mult_add_gen/rtl/ipml_multadd_v1_1_mult_add_gen.v|-work|work|
+!i113 0
+R6
+vipml_sdpram_v1_5_afifo_16i_64o_512
+R1
+!i10b 1
+!s100 Xhl0M^HM^ShEFm8M[?f>;3
+ITUaj@kAFJ6d@4H@;8A`]P3
+R2
+R0
+R3
+8F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_sdpram_v1_5_afifo_16i_64o_512.v
+FF:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_sdpram_v1_5_afifo_16i_64o_512.v
+Z25 L0 20
+R5
+r1
+!s85 0
+31
+!s108 1652371933.493000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_sdpram_v1_5_afifo_16i_64o_512.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/rtl/ipml_sdpram_v1_5_afifo_16i_64o_512.v|-work|work|
+!i113 0
+R6
+vipml_sdpram_v1_5_afifo_32i_8o_64depth
+R7
+!i10b 1
+!s100 hS]eWHAZXAmH[Tzjdf<Q@0
+Id@WX>9=KU2oEe@@69YD[d2
+R2
+R0
+R8
+8F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/rtl/ipml_sdpram_v1_5_afifo_32i_8o_64depth.v
+FF:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/rtl/ipml_sdpram_v1_5_afifo_32i_8o_64depth.v
+R25
+R5
+r1
+!s85 0
+31
+!s108 1652371935.650000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/rtl/ipml_sdpram_v1_5_afifo_32i_8o_64depth.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_32i_8o_64depth/rtl/ipml_sdpram_v1_5_afifo_32i_8o_64depth.v|-work|work|
+!i113 0
+R6
+vipml_sdpram_v1_5_afifo_64i_16o_128
+R1
+!i10b 1
+!s100 _jM4S0dM=KXUJVkBBkQG91
+IPbKE1QM9F3Dz75RU;?[9V0
+R2
+R0
+R10
+8F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_sdpram_v1_5_afifo_64i_16o_128.v
+FF:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_sdpram_v1_5_afifo_64i_16o_128.v
+R25
+R5
+r1
+!s85 0
+31
+!s108 1652371933.893000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_sdpram_v1_5_afifo_64i_16o_128.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/rtl/ipml_sdpram_v1_5_afifo_64i_16o_128.v|-work|work|
+!i113 0
+R6
+vipml_sdpram_v1_5_afifo_8i_32o_64depth
+R11
+!i10b 1
+!s100 TTC;A;cBL0fm==L;mH`VF1
+ILU>D^oC474m:zKF`o]FiF0
+R2
+R0
+R12
+8F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_sdpram_v1_5_afifo_8i_32o_64depth.v
+FF:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_sdpram_v1_5_afifo_8i_32o_64depth.v
+R25
+R5
+r1
+!s85 0
+31
+!s108 1652371936.052000
+!s107 F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_sdpram_v1_5_afifo_8i_32o_64depth.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/afifo_8i_32o_64depth/rtl/ipml_sdpram_v1_5_afifo_8i_32o_64depth.v|-work|work|
+!i113 0
+R6
+vipsl_hmic_h_ddrc_apb_reset_v1_1
+R9
+!i10b 1
+!s100 iU7ZCai>S67@GAkXY`n[G2
+IGZ0JZQL[_^ACP_V<KBjc?1
+R2
+R0
+Z26 w1649685555
+8F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_apb_reset_v1_1.v
+FF:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_apb_reset_v1_1.v
+Z27 L0 17
+R5
+r1
+!s85 0
+31
+!s108 1652371934.512000
+!s107 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_apb_reset_v1_1.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_apb_reset_v1_1.v|-work|work|
+!i113 0
+R6
+vipsl_hmic_h_ddrc_reset_ctrl_v1_1
+R9
+!i10b 1
+!s100 FY_F2oh0ThM[^B>3K3O9I0
+IQTFlHKSW1g@N2W^OJ3=601
+R2
+R0
+R26
+8F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_reset_ctrl_v1_1.v
+FF:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_reset_ctrl_v1_1.v
+R27
+R5
+r1
+!s85 0
+31
+!s108 1652371934.609000
+!s107 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_reset_ctrl_v1_1.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_reset_ctrl_v1_1.v|-work|work|
+!i113 0
+R6
+vipsl_hmic_h_ddrc_top_v1_1
+R7
+!i10b 1
+!s100 VN[1Xed<8a:feC;0h@zAS1
+IzhVdEQb56:LX0E49?o^9U2
+R2
+R0
+R26
+8F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_top_v1_1.v
+FF:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_top_v1_1.v
+R27
+R5
+r1
+!s85 0
+31
+!s108 1652371935.126000
+!s107 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_top_v1_1.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrc_top_v1_1.v|-work|work|
+!i113 0
+R6
+vipsl_hmic_h_ddrphy_dll_update_ctrl_v1_1
+R9
+!i10b 1
+!s100 PPzIRG@gIo[3UOA69i4NW2
+IEai9lflnLC5SzELJ>V2Rf1
+R2
+R0
+R26
+8F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_dll_update_ctrl_v1_1.v
+FF:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_dll_update_ctrl_v1_1.v
+R27
+R5
+r1
+!s85 0
+31
+!s108 1652371934.711000
+!s107 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_dll_update_ctrl_v1_1.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_dll_update_ctrl_v1_1.v|-work|work|
+!i113 0
+R6
+vipsl_hmic_h_ddrphy_reset_ctrl_v1_1
+R9
+!i10b 1
+!s100 ldSNn=LPUNCekBKbC05UF2
+I;bB<^][kYnC23C[odZ;gd2
+R2
+R0
+R26
+8F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_reset_ctrl_v1_1.v
+FF:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_reset_ctrl_v1_1.v
+R27
+R5
+r1
+!s85 0
+31
+!s108 1652371934.816000
+!s107 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_reset_ctrl_v1_1.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_reset_ctrl_v1_1.v|-work|work|
+!i113 0
+R6
+vipsl_hmic_h_ddrphy_training_ctrl_v1_1
+R9
+!i10b 1
+!s100 _]2XhJ]<jaImVinEc4^6R2
+IK:<FgJ:C4`XiGS=;jREPL2
+R2
+R0
+R26
+8F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_training_ctrl_v1_1.v
+FF:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_training_ctrl_v1_1.v
+R27
+R5
+r1
+!s85 0
+31
+!s108 1652371934.919000
+!s107 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_training_ctrl_v1_1.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_training_ctrl_v1_1.v|-work|work|
+!i113 0
+R6
+vipsl_hmic_h_ddrphy_update_ctrl_v1_1
+R7
+!i10b 1
+!s100 dc7B2TON5cH?cFROhC1WW2
+ICTjG@6]81hW0VQPUaV2831
+R2
+R0
+R26
+8F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_update_ctrl_v1_1.v
+FF:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_update_ctrl_v1_1.v
+R27
+R5
+r1
+!s85 0
+31
+!s108 1652371935.030000
+!s107 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_update_ctrl_v1_1.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_ddrphy_update_ctrl_v1_1.v|-work|work|
+!i113 0
+R6
+vipsl_hmic_h_phy_io_v1_1
+R7
+!i10b 1
+!s100 ca23cjg36XKIZ<F?KfJ_^0
+IYSNWFe7CETOF`Ub6kU?Ye0
+R2
+R0
+R26
+8F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_phy_io_v1_1.v
+FF:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_phy_io_v1_1.v
+R27
+R5
+r1
+!s85 0
+31
+!s108 1652371935.335000
+!s107 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_phy_io_v1_1.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_phy_io_v1_1.v|-work|work|
+!i113 0
+R6
+vipsl_hmic_h_phy_top_v1_1
+R7
+!i10b 1
+!s100 <Z^lgIJ0`BY57lFQIA1:O0
+ILdA_F?[;OjD4RgTjbldXP2
+R2
+R0
+R26
+8F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_phy_top_v1_1.v
+FF:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_phy_top_v1_1.v
+R27
+R5
+r1
+!s85 0
+31
+!s108 1652371935.225000
+!s107 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_phy_top_v1_1.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/ipsl_hmic_h_phy_top_v1_1.v|-work|work|
+!i113 0
+R6
+vkey
+R15
+!i10b 1
+!s100 D`lGQ=7oV<Ln0S[`8CVD<1
+IoM7C69S=MHLD@>937i0]L1
+R2
+R0
+w1649830488
+8F:/pds_project/ConvKing/source/Peripheral/key.v
+FF:/pds_project/ConvKing/source/Peripheral/key.v
+L0 4
+R5
+r1
+!s85 0
+31
+!s108 1652371930.870000
+!s107 F:/pds_project/ConvKing/source/Peripheral/key.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/key.v|-work|work|
+!i113 0
+R6
+vkey_top
+R15
+!i10b 1
+!s100 3adPHH4mDRlLo5;N>lQPj0
+Iz:]Z7RBP3dS@UFDh<:2S[0
+R2
+R0
+w1652185270
+8F:/pds_project/ConvKing/source/Peripheral/key_top.v
+FF:/pds_project/ConvKing/source/Peripheral/key_top.v
+L0 4
+R5
+r1
+!s85 0
+31
+!s108 1652371930.963000
+!s107 F:/pds_project/ConvKing/source/Peripheral/key_top.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/key_top.v|-work|work|
+!i113 0
+R6
+vlinear_top
+Z28 !s110 1652371931
+!i10b 1
+!s100 ;dUYM]>niC]L`FSIO]57@0
+Ii_6:l4DU@_JeS=:mXX`@S0
+R2
+R0
+w1649830514
+8F:/pds_project/ConvKing/source/Accelerator/Linear/linear_top.v
+FF:/pds_project/ConvKing/source/Accelerator/Linear/linear_top.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371931.346000
+!s107 F:/pds_project/ConvKing/source/Accelerator/Linear/linear_top.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/Linear/linear_top.v|-work|work|
+!i113 0
+R6
+vlut_ov5640_rgb565_1024_768
+R18
+!i10b 1
+!s100 ;<HknZ4PZUS8Ah6Y>4z>M2
+I=8F`NQ9V=<1CK5E6feP1Z0
+R2
+R0
+w1649830478
+8F:/pds_project/ConvKing/source/Camera/lut_ov5640_rgb565_1024_768.v
+FF:/pds_project/ConvKing/source/Camera/lut_ov5640_rgb565_1024_768.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371929.324000
+!s107 F:/pds_project/ConvKing/source/Camera/lut_ov5640_rgb565_1024_768.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Camera/lut_ov5640_rgb565_1024_768.v|-work|work|
+!i113 0
+R6
+vmobilenet_invers
+R28
+!i10b 1
+!s100 zGhc3<AiGk;n`WL@WeM:J3
+INiAh_6J??;BS1@727`loF2
+R2
+R0
+w1652188314
+8F:/pds_project/ConvKing/source/Accelerator/mobilenet_invres.v
+FF:/pds_project/ConvKing/source/Accelerator/mobilenet_invres.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371931.441000
+!s107 F:/pds_project/ConvKing/source/Accelerator/mobilenet_invres.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/mobilenet_invres.v|-work|work|
+!i113 0
+R6
+vmobilenet_top
+R28
+!i10b 1
+!s100 W?2=DHYhT76TBdKkL7=]:2
+IN1MAXCZz1CmEcC_3m^k7?1
+R2
+R0
+w1652188308
+8F:/pds_project/ConvKing/source/Accelerator/mobilenet_top.v
+FF:/pds_project/ConvKing/source/Accelerator/mobilenet_top.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371931.537000
+!s107 F:/pds_project/ConvKing/source/Accelerator/mobilenet_top.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/mobilenet_top.v|-work|work|
+!i113 0
+R6
+vmult_add
+R15
+!i10b 1
+!s100 I]DhGPb`A:4]A6kz5AZ@D3
+I<3KWObFDj8;f02d^1VQDU0
+R2
+R0
+w1649830491
+8F:/pds_project/ConvKing/source/mult_add.v
+FF:/pds_project/ConvKing/source/mult_add.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371930.195000
+!s107 F:/pds_project/ConvKing/source/mult_add.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/mult_add.v|-work|work|
+!i113 0
+R6
+vmult_add_gen
+R9
+!i10b 1
+!s100 mTn0M16L>WnDSA`WooO=12
+IXkd;@LolZMM3zcUQHG6;d1
+R2
+R0
+R24
+8F:/pds_project/ConvKing/ipcore/mult_add_gen/mult_add_gen.v
+FF:/pds_project/ConvKing/ipcore/mult_add_gen/mult_add_gen.v
+R22
+R5
+r1
+!s85 0
+31
+!s108 1652371934.315000
+!s107 F:/pds_project/ConvKing/ipcore/mult_add_gen/mult_add_gen.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/mult_add_gen/mult_add_gen.v|-work|work|
+!i113 0
+R6
+vpll_50_400_v1_1
+R9
+!i10b 1
+!s100 OA8J8BfT8<`dh?h7;DK;D3
+Ih`6<kF<keDF9<>heB?M230
+R2
+R0
+R16
+8F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/pll/pll_50_400_v1_1.v
+FF:/pds_project/ConvKing/ipcore/ddr3_core/rtl/pll/pll_50_400_v1_1.v
+R17
+R5
+r1
+!s85 0
+31
+!s108 1652371934.414000
+!s107 F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/pll/pll_50_400_v1_1.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/ddr3_core/rtl/pll/pll_50_400_v1_1.v|-work|work|
+!i113 0
+R6
+vpt_read
+R14
+!i10b 1
+!s100 z6_6Q5Rn?<1eDNgoLLhY<0
+I@:m>YF6WHhmZFdB3I]foz3
+R2
+R0
+w1651482770
+8F:/pds_project/ConvKing/source/Peripheral/pt_read.v
+FF:/pds_project/ConvKing/source/Peripheral/pt_read.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371932.632000
+!s107 F:/pds_project/ConvKing/source/Peripheral/pt_read.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/pt_read.v|-work|work|
+!i113 0
+R6
+vrelu
+R28
+!i10b 1
+!s100 P4IE<Ak`nn^bikjf[KSZV3
+INH1TUik1EKW?fD`R4]<EP0
+R2
+R0
+w1652186073
+8F:/pds_project/ConvKing/source/Accelerator/ReLU/relu.v
+FF:/pds_project/ConvKing/source/Accelerator/ReLU/relu.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371931.064000
+!s107 F:/pds_project/ConvKing/source/Accelerator/ReLU/relu.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/ReLU/relu.v|-work|work|
+!i113 0
+R6
+vrelu_top
+R28
+!i10b 1
+!s100 enDibo=OJV:`bTOOh>abg2
+ID04KYeASWm7m;UkYPel5L1
+R2
+R0
+w1652187719
+8F:/pds_project/ConvKing/source/Accelerator/ReLU/relu_top.v
+FF:/pds_project/ConvKing/source/Accelerator/ReLU/relu_top.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371931.163000
+!s107 F:/pds_project/ConvKing/source/Accelerator/ReLU/relu_top.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/ReLU/relu_top.v|-work|work|
+!i113 0
+R6
+vrgb2hsv
+R1
+!i10b 1
+!s100 5I6iPK[CANQdN<:MhG=]M2
+Ih4_HBK^M@44U]I5X^gF[g1
+R2
+R0
+w1652239403
+8F:/pds_project/ConvKing/source/Accelerator/KNN/rgb2hsv.v
+FF:/pds_project/ConvKing/source/Accelerator/KNN/rgb2hsv.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1652371933.017000
+!s107 F:/pds_project/ConvKing/source/Accelerator/KNN/rgb2hsv.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/KNN/rgb2hsv.v|-work|work|
+!i113 0
+R6
+vsd_card_cmd
+R14
+!i10b 1
+!s100 V<f4gQ20FjZ`C[;U?EA2H2
+IOhA;>:GUc@lzY0WTVl`^g1
+R2
+R0
+w1650975054
+8F:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_cmd.v
+FF:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_cmd.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371932.156000
+!s107 F:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_cmd.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_cmd.v|-work|work|
+!i113 0
+R6
+vsd_card_sec_read_write
+R14
+!i10b 1
+!s100 Tb`8ZKiaVQ]Th1Yzc@[1h0
+IEK<47f^>`Y[;[4ALeTU2n3
+R2
+R0
+w1650974954
+8F:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_sec_read_write.v
+FF:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_sec_read_write.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371932.250000
+!s107 F:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_sec_read_write.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_sec_read_write.v|-work|work|
+!i113 0
+R6
+vsd_card_top
+R14
+!i10b 1
+!s100 5MZmeahJ;hfS;NzE^alOJ2
+IKGmf5fZVSMU4L:L36:56X0
+R2
+R0
+w1651476960
+8F:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_top.v
+FF:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_top.v
+L0 165
+R5
+r1
+!s85 0
+31
+!s108 1652371932.346000
+!s107 F:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_top.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/Sdcard/sd_card_top.v|-work|work|
+!i113 0
+R6
+vsd_card_weight
+R14
+!i10b 1
+!s100 UGR351O;^df@]?5U_Q6b_1
+If@Q>6<Xl;8C;2C9aH0Nff2
+R2
+R0
+w1651482757
+8F:/pds_project/ConvKing/source/Peripheral/sd_card_weight.v
+FF:/pds_project/ConvKing/source/Peripheral/sd_card_weight.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371932.730000
+!s107 F:/pds_project/ConvKing/source/Peripheral/sd_card_weight.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/sd_card_weight.v|-work|work|
+!i113 0
+R6
+vserdes_4b_10to1
+R15
+!i10b 1
+!s100 R4LHXO8A5NDM63a<_k]042
+IOdjh@2m]Vo[G>:Ff7hYhW2
+R2
+R0
+w1649830434
+8F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/serdes_4b_10to1.v
+FF:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/serdes_4b_10to1.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371930.491000
+!s107 F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/serdes_4b_10to1.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/serdes_4b_10to1.v|-work|work|
+!i113 0
+R6
+vspi_master
+R14
+!i10b 1
+!s100 ]ZElF7P4JWb]G>0>6aiWV2
+IH?jo94BbFA:21IDX^1gWI2
+R2
+R0
+w1650974720
+8F:/pds_project/ConvKing/source/Peripheral/Sdcard/spi_master.v
+FF:/pds_project/ConvKing/source/Peripheral/Sdcard/spi_master.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371932.440000
+!s107 F:/pds_project/ConvKing/source/Peripheral/Sdcard/spi_master.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/Sdcard/spi_master.v|-work|work|
+!i113 0
+R6
+vtop
+R13
+!i10b 1
+!s100 8I9@`T:;Z`iP81MO^Uid[0
+I5T4@z=3N^VFbSQh[O8;dM2
+R2
+R0
+w1652371727
+8F:/pds_project/ConvKing/source/top.v
+FF:/pds_project/ConvKing/source/top.v
+L0 4
+R5
+r1
+!s85 0
+31
+!s108 1652371928.611000
+!s107 F:\pds_project\ConvKing\source\Uart\fruit_defines.v|F:/pds_project/ConvKing/source/top.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/top.v|-work|work|
+!i113 0
+R6
+vuart_decode
+R14
+!i10b 1
+!s100 BLLcZab0C`JKS;FXm02AR1
+IK:DQf]meI8Y:iX=_9XJK?2
+R2
+R0
+w1652371559
+8F:/pds_project/ConvKing/source/Uart/uart_decode.v
+FF:/pds_project/ConvKing/source/Uart/uart_decode.v
+L0 4
+R5
+r1
+!s85 0
+31
+!s108 1652371932.826000
+!s107 F:\pds_project\ConvKing\source\Uart\fruit_defines.v|F:/pds_project/ConvKing/source/Uart/uart_decode.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Uart/uart_decode.v|-work|work|
+!i113 0
+R6
+vuart_rx
+R18
+!i10b 1
+!s100 _z_kH7Vz]2MY?c;VP=Wz_3
+IZ56mBA@lBz;b@[Hf[^KNi1
+R2
+R0
+w1650459676
+8F:/pds_project/ConvKing/source/Uart/uart_rx.v
+FF:/pds_project/ConvKing/source/Uart/uart_rx.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371929.905000
+!s107 F:/pds_project/ConvKing/source/Uart/uart_rx.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Uart/uart_rx.v|-work|work|
+!i113 0
+R6
+vuart_top
+R15
+!i10b 1
+!s100 ]C^B0DO0E^mGI><kZ^ccI0
+ImRzoQF[Z`D`CZ@lLzB<Oz3
+R2
+R0
+w1652176216
+8F:/pds_project/ConvKing/source/Uart/uart_top.v
+FF:/pds_project/ConvKing/source/Uart/uart_top.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371930.003000
+!s107 F:/pds_project/ConvKing/source/Uart/uart_top.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Uart/uart_top.v|-work|work|
+!i113 0
+R6
+vuart_tx
+R15
+!i10b 1
+!s100 YZ2bPKlGRX;0<D@PcP;?h3
+I7eQ89CU<TMD:LcnSa0OH`1
+R2
+R0
+w1650459679
+8F:/pds_project/ConvKing/source/Uart/uart_tx.v
+FF:/pds_project/ConvKing/source/Uart/uart_tx.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371930.098000
+!s107 F:/pds_project/ConvKing/source/Uart/uart_tx.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Uart/uart_tx.v|-work|work|
+!i113 0
+R6
+vvideo_pll
+R1
+!i10b 1
+!s100 <Q:9UX26Cz?dXKQO<N]Dc3
+IJoJIOPVCmGC^HGPT?TziS3
+R2
+R0
+w1650432821
+8F:/pds_project/ConvKing/ipcore/video_pll/video_pll.v
+FF:/pds_project/ConvKing/ipcore/video_pll/video_pll.v
+R25
+R5
+r1
+!s85 0
+31
+!s108 1652371933.302000
+!s107 F:/pds_project/ConvKing/ipcore/video_pll/video_pll.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/ipcore/video_pll/video_pll.v|-work|work|
+!i113 0
+R6
+vvideo_timing_data
+R15
+!i10b 1
+!s100 Y`;eI]`og5HY3h;;>B3C73
+IaaS1zi1]Sh9He7afQiJjS2
+R2
+R0
+w1649830481
+8F:/pds_project/ConvKing/source/Peripheral/Hdmi/video_timing_data.v
+FF:/pds_project/ConvKing/source/Peripheral/Hdmi/video_timing_data.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371930.778000
+!s107 F:/pds_project/ConvKing/source/Peripheral/Hdmi/video_timing_data.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Peripheral/Hdmi/video_timing_data.v|-work|work|
+!i113 0
+R6
+vyolo_aft
+R28
+!i10b 1
+!s100 `BdX_MSC1L8@4jb>EdfS=0
+IDU[`ML9DkU>bmPXo6aRC?1
+R2
+R0
+w1652076237
+8F:/pds_project/ConvKing/source/Accelerator/yolo_aft.v
+FF:/pds_project/ConvKing/source/Accelerator/yolo_aft.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371931.629000
+!s107 F:/pds_project/ConvKing/source/Accelerator/yolo_aft.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/yolo_aft.v|-work|work|
+!i113 0
+R6
+vyolo_cbl
+R28
+!i10b 1
+!s100 ci4f=OGm`3@AH3D8JPE<l2
+IJmOX3OQ5B9_22ab9BVk@W2
+R2
+R0
+w1652188304
+8F:/pds_project/ConvKing/source/Accelerator/yolo_CBL.v
+FF:/pds_project/ConvKing/source/Accelerator/yolo_CBL.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371931.723000
+!s107 F:/pds_project/ConvKing/source/Accelerator/yolo_CBL.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/yolo_CBL.v|-work|work|
+!i113 0
+R6
+vyolo_mobilenet
+R28
+!i10b 1
+!s100 WPFg0AoN2EM>PP84;U7bB2
+IHG9Ikc1T[NC82:W=CaZIF2
+R2
+R0
+w1652188300
+8F:/pds_project/ConvKing/source/Accelerator/yolo_mobilenet.v
+FF:/pds_project/ConvKing/source/Accelerator/yolo_mobilenet.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371931.821000
+!s107 F:/pds_project/ConvKing/source/Accelerator/yolo_mobilenet.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/yolo_mobilenet.v|-work|work|
+!i113 0
+R6
+vyolo_pre
+R28
+!i10b 1
+!s100 C;d82;8ZSMD0DRAcKaPkN2
+ID<;R@>6VZK`P`=Uo8z>3d1
+R2
+R0
+w1652188297
+8F:/pds_project/ConvKing/source/Accelerator/yolo_pre.v
+FF:/pds_project/ConvKing/source/Accelerator/yolo_pre.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371931.922000
+!s107 F:/pds_project/ConvKing/source/Accelerator/yolo_pre.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/yolo_pre.v|-work|work|
+!i113 0
+R6
+vyolo_top
+R14
+!i10b 1
+!s100 R_=W0MCo[9kjaA1DEej[40
+I<[zLoOaMLIWY;6R86eW^C1
+R2
+R0
+w1652349679
+8F:/pds_project/ConvKing/source/Accelerator/yolo_top.v
+FF:/pds_project/ConvKing/source/Accelerator/yolo_top.v
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1652371932.042000
+!s107 F:/pds_project/ConvKing/source/Accelerator/yolo_top.v|
+!s90 -reportprogress|300|F:/pds_project/ConvKing/source/Accelerator/yolo_top.v|-work|work|
+!i113 0
+R6

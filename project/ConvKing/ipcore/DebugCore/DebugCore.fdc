@@ -1,0 +1,17 @@
+// Created by IP Generator (Version 2020.3 build 62942)
+
+
+
+define_current_design {DebugCore}
+
+###==== BEGIN Header
+create_clock {p:drck_in} -period {66.6666}
+
+# Custom constraint commands may be added outside of the SCOPE tab sections bounded with BEGIN/END.
+# These sections are generated from SCOPE spreadsheet tabs.
+
+###==== END Header
+###==== BEGIN Clocks - (Populated from tab in SCOPE, do not edit)
+
+###==== END Clocks
+

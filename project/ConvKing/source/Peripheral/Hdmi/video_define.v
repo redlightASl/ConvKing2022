@@ -1,0 +1,2 @@
+//VGA
+`define	VIDEO_1024_768

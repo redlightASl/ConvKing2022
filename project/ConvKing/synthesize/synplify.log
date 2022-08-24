@@ -1,0 +1,38 @@
+
+Inputs and Outputs :
++------------------------------------------------------------------------------------------+
+| Type      | File Name                                                                   
++------------------------------------------------------------------------------------------+
+| Input     | F:/pds_project/ConvKing/source/top.v                                        
+|           | F:/pds_project/ConvKing/source/Bridge/axi/aq_axi_master.v                   
+|           | F:/pds_project/ConvKing/source/Camera/cmos_8_16bit.v                        
+|           | F:/pds_project/ConvKing/source/Camera/cmos_write_req_gen.v                  
+|           | F:/pds_project/ConvKing/source/Camera/frame_fifo_read.v                     
+|           | F:/pds_project/ConvKing/source/Camera/frame_fifo_write.v                    
+|           | F:/pds_project/ConvKing/source/Camera/frame_read_write.v                    
+|           | F:/pds_project/ConvKing/source/Camera/lut_ov5640_rgb565_1024_768.v          
+|           | F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_config.v               
+|           | F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_bit_ctrl.v      
+|           | F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_byte_ctrl.v     
+|           | F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_defines.v       
+|           | F:/pds_project/ConvKing/source/Camera/i2c_master/i2c_master_top.v           
+|           | F:/pds_project/ConvKing/source/Uart/uart_rx.v                               
+|           | F:/pds_project/ConvKing/source/Uart/uart_top.v                              
+|           | F:/pds_project/ConvKing/source/Uart/uart_tx.v                               
+|           | F:/pds_project/ConvKing/source/mult_add.v                                   
+|           | F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/dvi_encoder.v         
+|           | F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/encode.v              
+|           | F:/pds_project/ConvKing/source/Peripheral/Hdmi/dvi_tx/serdes_4b_10to1.v     
+|           | F:/pds_project/ConvKing/source/Peripheral/Hdmi/color_bar.v                  
+|           | F:/pds_project/ConvKing/source/Peripheral/Hdmi/video_define.v               
+|           | F:/pds_project/ConvKing/source/Peripheral/Hdmi/video_timing_data.v          
+|           | F:/pds_project/ConvKing/ConvKing.fdc                                        
+|           | F:/pds_project/ConvKing/ipcore/video_pll/video_pll.idf                      
+|           | F:/pds_project/ConvKing/ipcore/ddr3_core/ddr3_core.idf                      
+|           | F:/pds_project/ConvKing/ipcore/afifo_16i_64o_512/afifo_16i_64o_512.idf      
+|           | F:/pds_project/ConvKing/ipcore/afifo_64i_16o_128/afifo_64i_16o_128.idf      
+|           | F:/pds_project/ConvKing/ipcore/mult_add_gen/mult_add_gen.idf                
++------------------------------------------------------------------------------------------+
+
+
+Flow Command: synthesize -synplify_pro -include_path {F:/pds_project/ConvKing} -selected_syn_tool_opt 1 -top_module top

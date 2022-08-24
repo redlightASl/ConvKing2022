@@ -1,0 +1,10 @@
+banana 218 22 311 211
+banana 214 1 279 185
+banana 195 31 252 250
+banana 20 115 185 254
+banana 7 22 136 83
+banana 1 35 152 113
+banana 1 48 142 150
+banana 1 42 147 152
+banana 13 48 152 179
+banana 94 37 175 128
